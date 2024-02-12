@@ -19,3 +19,26 @@ body {
     justify-content: center;
   }
   
+  /* THEMES */
+  .dark {
+    background-color: #2d2d2d;
+      }
+    
+      .light {
+    background-color: white;
+      }
+    
+      .crazy {
+    background: radial-gradient( green, purple);
+    transform: skew(10deg, 20deg);
+      }
+    
+      .dark p,
+      .crazy p {
+        color: white;
+      }
+    
+       /* EFFECT */
+       .color-transition {
+        transition: all 2s ease-in-out;
+       }
